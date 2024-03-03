@@ -1,7 +1,7 @@
 import math 
 import numpy as np
 
-def p0002(max_val): #max is inclusive
+def p002(max_val): #max is inclusive
     X = np.ones((2,1))
     X[0][0] += 1
     transform = np.array([[1,1],[1,0]])
@@ -14,7 +14,7 @@ def p0002(max_val): #max is inclusive
 
 
 def tests():
-    print(p0002(4e6))
+    print(p002(4e6))
 
 def main():
     tests()

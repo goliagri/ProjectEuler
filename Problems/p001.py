@@ -1,6 +1,6 @@
 import math 
 
-def p0001(x1, x2, max_val=1000): #max is not inclusive
+def p001(x1, x2, max_val=1000): #max is not inclusive
     '''
     Get sum of integers (0,max_val) which are divisible by either x1 or x2
     '''
@@ -13,7 +13,7 @@ def p0001(x1, x2, max_val=1000): #max is not inclusive
     return get_seq_sum(x1, max_val) + get_seq_sum(x2, max_val) - get_seq_sum(x_lcm, max_val)
 
 def tests():
-    print(p0001(3,5,1000))
+    print(p001(3,5,1000))
 
 def main():
     tests()
